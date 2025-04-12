@@ -6,6 +6,8 @@ Este é o site oficial do servidor **Pro-League Arenas**, criado para **HaxBall*
 
 - **React**: Biblioteca JavaScript para criação de interfaces de usuário.
 - **Vite**: Ferramenta de construção e bundling super-rápida para projetos React.
+- **Node.js**: Ambiente de execução JavaScript utilizado no backend.
+- **npm**: Gerenciador de pacotes para instalar as dependências do projeto.
 - **ChatGPT**: Utilizado para me ajudar a aprimorar funcionalidades e melhorar o desenvolvimento de algumas partes do site.
 - **CSS**: Para estilizar o layout e tornar o site visualmente atraente.
 
