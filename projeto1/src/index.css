@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Poppins:wght@300;400;600&display=swap");
+
+body {
+  margin: 0;
+  background: #121212;
+  color: #e0e0e0;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  color: #81c784;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .MuiContainer-root {
+    padding: 0 10px;
+  }
+}

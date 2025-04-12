@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Poppins:wght@300;400;600&display=swap");
+
+body {
+  background-color: #121212;
+  color: #e0e0e0;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.section {
+  margin: 60px 0;
+  text-align: center;
+}
+
+.title-highlight {
+  font-family: "Bungee Shade", cursive;
+  color: #ff6f00;
+  text-shadow: 2px 2px 10px #ff9800;
+  transition: transform 0.3s ease;
+}
+
+.title-highlight:hover {
+  transform: scale(1.05);
+  text-shadow: 2px 2px 20px #ffa726;
+}
+
+.info-card {
+  background: #1e1e1e;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0px 4px 20px rgba(0, 255, 128, 0.15);
+  text-align: center;
+  border: 1px solid #333;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.info-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0px 6px 25px rgba(0, 255, 128, 0.3);
+}
+
+.button-glow {
+  transition: 0.3s;
+}
+
+.button-glow:hover {
+  box-shadow: 0 0 12px #4caf50, 0 0 24px #4caf50;
+}
+
+.card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: scale(1.03);
+  box-shadow: 0 4px 20px rgba(0, 255, 128, 0.2);
+}
+
+a {
+  color: #81c784;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
